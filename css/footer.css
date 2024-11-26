@@ -1,0 +1,41 @@
+
+.footer{
+	background-color: black;
+	margin-top: 40px;
+	min-width: 300px;
+}
+li{
+	list-style: none;
+}
+a{
+			text-decoration: none;
+
+}
+.rowFooter{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding:10px;
+}
+.links{
+	margin: 15px;
+	text-align: center;
+	vertical-align: middle;
+}
+.listaFooter li{
+	padding: 10px;
+}
+.listaFooter li a{
+color: #59abb3;
+font-size: 18px;
+}
+.listaFooter li a:hover{
+color: red;
+}
+
+@media (max-width: 500px) {
+    /* Estilos para pantallas pequeñas (teléfonos) */
+    .links{
+    	flex-basis: 100%;
+    }
+}

@@ -1,0 +1,62 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.head{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #010101;
+    padding: 20px;
+    min-width: 300px;
+
+}
+
+.head  a{
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+  font: oblique bold 120% cursive;
+}
+.head a:hover{
+	color: red;
+}
+
+
+.datos{
+    min-width: 300px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background: #c82333;
+	padding:20px;
+}
+
+.hijo{
+	text-align: center;
+	margin: 10px;
+}
+.hijo .logoEmpresa{
+
+}
+
+@media (max-width: 500px) {
+    /* Estilos para pantallas pequeñas (teléfonos) */
+    .head{
+    	text-align: center;
+    }
+    .head a {
+        flex-basis: 100%;
+    }
+    .datos{
+    	text-align: center;
+    	justify-content: center;
+    	align-items: center;
+    }
+    .hijo{
+    	 flex-basis: 100%;
+    }
+}

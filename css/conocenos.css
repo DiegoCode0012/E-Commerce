@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	 line-height: 1.5;
+}
+.contenedorConocenos{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+.contenedorConocenos div{
+	flex: 1;
+	margin: 20px;
+}
+.lema {
+	font-size: 36px;
+	font: bold;
+	text-align: right;
+	color: #dc3545;
+}
+.descripcion{
+	font-size: 19px;
+ line-height: 1.5;
+}
+.valores{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+}
+.ItemDescripcion{
+	min-width: 250px;
+	max-width: 300px;
+	background: #ea1717;
+	padding: 20px;
+	color: white;
+	 line-height: 1.5;
+	 border-radius: 6px;
+	 font-size: 20px;
+
+}
+
+.ItemDescripcion h1{
+	margin-bottom: 6px;
+}

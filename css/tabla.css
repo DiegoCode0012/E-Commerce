@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.table {
+	min-width:250px;
+	flex: 1;
+  margin:10px auto;
+  border-collapse: collapse;
+}
+
+/* Estilo de las celdas del encabezado */
+.table th,
+.table td {
+  padding: 15px;
+  border-top: 1px solid #dee2e6;
+}
+table thead tr{
+	background: red;
+	color: white;
+}
+.table th {
+  border-bottom:4px solid #dee2e6;
+  color: white;
+}
+
+/* Estilo de las filas alternas (opcional) */
+.table tbody tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Hover sobre filas (opcional) */
+.table tbody tr:hover {
+background-color: rgba(0, 0, 0, 0.075);
+	}
+
+.centrar{
+	text-align: center;
+}
+.centrar div{
+	margin: 10px;
+}
+.centrar div h1{
+	color: red;
+}
+
+
+
+.tablaUsuario {
+	min-width:250px;
+	flex: 1;
+  margin:40px auto;
+  border-collapse: collapse;
+}
+
+/* Estilo de las celdas del encabezado */
+.tablaUsuario th,
+.tablaUsuario td {
+  padding: 15px;
+  border-top: 1px solid #dee2e6;
+}
+table thead tr{
+	background: #101c76;
+	color: white;
+}
+.tablaUsuario th {
+  border-bottom:4px solid #dee2e6;
+  color: white;
+}
+
+/* Estilo de las filas alternas (opcional) */
+.tablaUsuario tbody tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Hover sobre filas (opcional) */
+.tablaUsuario tbody tr:hover {
+background-color: #f6e2dd;
+	}
+
+.centrar{
+	text-align: center;
+}
+.centrar div{
+	margin: 10px;
+}
+.centrar div h1{
+	color: red;
+}
